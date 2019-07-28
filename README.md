@@ -1,5 +1,5 @@
 # ARP-Alert
-Software send an Email-Alert if a new Device is connected to your Network. For Raspberry Pi<br>
+Software send an Email when a new Device is connected to your Network. For Raspberry Pi<br>
 <br>
 Installation on Rasperry Pi:<br>
 <br>
