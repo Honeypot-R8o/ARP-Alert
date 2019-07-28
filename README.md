@@ -1,5 +1,5 @@
 # ARP-Alert
-Software Send an Email-Alert if a new Device connect to your Network. For Raspberry Pi<br>
+Software send an Email-Alert if a new Device is connected to your Network. For Raspberry Pi<br>
 <br>
 Installation on Rasperry Pi:<br>
 <br>
@@ -12,4 +12,7 @@ sudo gedit /etc/rc.local<br>
 -><br>
 add line before exit 0:  sudo python3 /home/pi/arp-alert.py &<br>
 <br>
+gedit arp-alert.py<br>
+edit line 13 with your Email-Account<br>
+edit line 35 with your MAC-Address white list<br>
 sudo reboot<br>
